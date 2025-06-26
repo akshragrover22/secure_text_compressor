@@ -1,53 +1,42 @@
 # 🔐 Secure Text Compressor (Huffman + AES)
 
-A Python project to compress text using **Huffman coding** and encrypt using **AES**.  
-Comes with both a **command-line interface** and a **web app using Streamlit**.
+A Python project to compress text using **Huffman coding** and encrypt it using **AES-128** encryption.  
+Comes with both a **command-line interface (CLI)** and a **Streamlit web app**.
 
 ---
 
 ## 🚀 Features
 
 - 📦 Text compression using Huffman coding
-- 🔒 AES-128 encryption
+- 🔒 AES-128 encryption (CBC mode)
 - 🌐 Streamlit-based interactive UI
-- 💻 Also works from CLI
+- 💻 Command-line interface also supported
 
 ---
 
-
 ## 🧪 Tech Stack
 
-- Python 3.x
-- PyCryptodome
-- Streamlit
+- Python 3.x  
+- [PyCryptodome](https://pypi.org/project/pycryptodome/)  
+- [Streamlit](https://streamlit.io/)
 
 ---
 
 ## ▶️ How to Run
 
-### CLI Mode:
+### 🖥️ CLI Mode
+
 ```bash
 python compressor.py
-Web App:
-
 streamlit run web_app.py
-
-
-📂 Folder Structure
-
 secure_data_compressor/
-├── compressor.py     # Core logic
-├── web_app.py        # Streamlit app
-├── README.md
-📌 Future Improvements
-
-Save compressed files
-
-User authentication
-
-🧑‍💼 Author
-Akshra [https://www.linkedin.com/in/akshra-grover-5960a92a7/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B8NsejqWvQ6SWGinWyJAQBw%3D%3D]
-
-B.Tech 3rd Year | Passionate about security + systems
-
-
+├── compressor.py     # Core Huffman + AES logic
+├── web_app.py        # Streamlit UI
+├── README.md         # Project overview
+├── .gitignore
+└── __pycache__/      # Auto-generated (ignored)
+👩‍💻 Author
+Akshra Grover
+B.Tech 3rd Year | Passionate about Systems and Security
+🔗 LinkedIn
+🔗 GitHub
